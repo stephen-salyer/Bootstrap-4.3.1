@@ -5,10 +5,15 @@
   background-image: url(src/img/abstract-building-construction-2225388.jpg);
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: center 15%;
+  background-position: center 35%;
   font-family: 'Roboto Regular', sans-serif!important;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
+}
+
+.hero-top {
+  z-index: 5;
+  margin: 0 auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -27,8 +32,9 @@ h1 {
   object-fit: cover;
 }
 
-.carousel-item {
-  height: 100vh;
+.carousel {
+  position: absolute;
+  top: 0;
 }
 
 .carousel-item img {
@@ -61,6 +67,7 @@ button:hover {
 
   .hero {
     background-image: none;
+    height: auto;
   }
 
   .row {
@@ -74,10 +81,30 @@ button:hover {
   .card {
     width: 100%!important;
     margin: 2% 0;
-}
+  }
+
+  .card:hover {
+    margin: 2% 0;
+  }
 
   .card-img-top {
     height: 400px;
+  }
+
+  .p-5 {
+    padding: 0!important;
+  }
+
+  .m-auto {
+    margin: 10px!important;
+  }
+
+  .w-50 {
+    width: 95%!important;
+  }
+
+  button, .btn {
+    width: 100%;
   }
 
   .container {
@@ -92,17 +119,5 @@ button:hover {
 
   .carousel-item {
     height: 50vh;
-  }
-
-  .carousel-inner {
-    margin: 250px 0 0 0;
-  }
-
-  .carousel-control-prev {
-    margin: 200px 0 0 0;
-  }
-
-  .carousel-control-next {
-    margin: 200px 0 0 0;
   }
 }
